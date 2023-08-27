@@ -1,9 +1,5 @@
 # Use an official Python runtime as the base image
-FROM python:3.8-slim
-
-# Set environment variables
-ENV FLASK_APP=app.py
-ENV FLASK_RUN_HOST=0.0.0.0
+FROM python:3.8.8
 
 # Set the working directory
 WORKDIR /app
