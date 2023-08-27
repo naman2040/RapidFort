@@ -16,8 +16,8 @@ jobs:
     - name: Login to DockerHub
       uses: docker/login-action@v1
       with:
-        username: ${{ secrets.Namans113 }}
-        password: ${{ secrets.Docker113 }}
+        username: ${{ secrets.USER_NAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build and push
       id: docker_build
