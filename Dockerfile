@@ -12,4 +12,4 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 
 # Run the Flask app
-CMD python ./server.py
+CMD python ./API.py
