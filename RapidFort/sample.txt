@@ -1,0 +1,4 @@
+Hi i am Naman Sharma
+20124066
+Information Technology
+curl.exe -X POST -F "file=@RapidFort/sample.txt" http://127.0.0.1:5000/upload
