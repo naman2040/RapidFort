@@ -21,6 +21,10 @@
     <ul>
       <li>It contains an HTML template that forms the landing and uploading page for the file</li>
     </ul>
+  <li>Deployement and Service yaml</li>
+    <ul>
+      <li>To deploy app on docker | kubernete</li>
+    </ul>
 </ol>
 ----------------------------------------------------
 <h2>Docker Image can also be accessed from my docker repository: namans113/rapidfort</h2>
