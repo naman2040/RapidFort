@@ -10,7 +10,7 @@ UPLOAD_FOLDER = 'uploads'
 if not os.path.exists(UPLOAD_FOLDER):
     os.mkdir(UPLOAD_FOLDER)
 
-@app.route('/upload', methods=['GET'])
+@app.route('/', methods=['GET'])
 def upload_form():
     return render_template('page.html')
 
