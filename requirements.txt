@@ -1,5 +1,5 @@
 flask==2.0.1
 Jinja2==3.0.1
-flask-restful==0.3.8
+flask-restful==0.3.10
 python-magic==0.4.22
 
